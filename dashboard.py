@@ -5,8 +5,8 @@ import plotly.express as px
 import pandas as pd
 
 # 🔥 LOAD MODEL
-kmeans = joblib.load("models/kmeans.pkl")
-columns = joblib.load("models/columns.pkl")
+kmeans = joblib.load("kmeans.pkl")
+columns = joblib.load("columns.pkl")
 
 
 # 🎯 CLUSTER LABELS
